@@ -1,0 +1,21 @@
+{
+	"repeatData":"disable",
+	"repeatControl":"disable",
+	"mode":"telnet",
+	"serialSpeed":9600,
+	"interfaceType":"tun",
+	"interfaceName":"lora0",
+	"mtu":1000,
+	"destination":"10.0.2.252",
+	"destinationPort":"23",
+	"address":"192.168.0.254",
+	"mask":"255.255.255.0",
+	"dedupHistoryData":0,
+	"dedupHistoryControl":0,
+	"waitPerByte":10,
+	"waitToDiscard":30,
+	"transmitWaitMax":50,
+	"transmitWaitMin":10,
+	"packetTimeout":300,
+	"debugLevel":10
+}

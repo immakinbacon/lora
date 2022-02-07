@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /lora/src
+if [ $(ps -ef | grep "lora.js" | wc -l) -eq "1" ]
+then
+	node lora.js config.json >> ../logs/lora.log;
+fi
